@@ -1,29 +1,19 @@
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-  /* box-sizing cancels adding pixels to borders */
-}
+@import "abstracts/variables";
+@import "abstracts/mixins";
 
-body {
-  font-family: 'Baloo 2', cursive;
-  background-color: #dddddd;
-  box-sizing: border-box;
-  
-}
+@import "base/animation";
+@import "base/base";
+@import "base/utitlities";
 
-html {
-  font-size: 62.5%; //1rem = 16px; 10/16 = 62.5%;
-  scroll-behavior: smooth;
-}
+@import "components/buttons";
 
-.navbar {
-    font-size: 1.5rem;
-
-}
-
-.nav-item {
-  padding: 0 2rem;
-}
+@import "layout/about";
+@import "layout/banner";
+@import "layout/footer";
+@import "layout/grid";
+@import "layout/header";
+@import "layout/main-section";
+@import "layout/navigation";
+@import "layout/projects";
+@import "layout/periodicals";
+@import "layout/typography";

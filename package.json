@@ -1,7 +1,7 @@
 {
-  "name": "santosh-portfolio",
+  "name": "larr-sales-inc",
   "version": "1.0.0",
-  "description": "Web Developer Portfolio",
+  "description": "Dental products Distrubutor in Canada",
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
