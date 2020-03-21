@@ -155,12 +155,11 @@ html {
     animation-duration: 1s; }
   .banner__tag {
     display: inline-block;
-    color: #fff;
+    color: #fa304b;
+    font-family: 'Satisfy', cursive;
     font-size: 2rem;
     text-align: center;
-    background: #091c4d;
     display: inline-block;
-    padding: 1rem 2rem;
     margin: 2rem;
     border-radius: 3px;
     animation: moveInBottom;
@@ -374,10 +373,9 @@ html {
         align-self: center; }
       .periodicals__cards-item__title {
         text-align: center;
+        font-size: 1.8rem;
+        font-weight: 500;
         color: #fa304b; }
-      .periodicals__cards-item__text {
-        font-size: 1.5rem;
-        text-align: center; }
 
 .section-heading {
   font-size: 4rem;
@@ -388,4 +386,5 @@ html {
 
 .section-sub-heading {
   font-size: 2rem;
-  color: #091c4d; }
+  color: #fa304b;
+  font-weight: 600; }
