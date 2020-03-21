@@ -132,6 +132,7 @@ html {
   background-size: cover; }
   @media only screen and (max-width: 37.5em) {
     .banner {
+      height: 50vh;
       background-image: linear-gradient(rgba(221, 221, 221, 0.7), rgba(221, 221, 221, 0.7)), url(../img/banner.jpg); } }
   .banner__box {
     display: flex;
