@@ -342,67 +342,23 @@ html {
   color: #fa304b;
   font-weight: 600; }
 
-.vendors {
-  height: auto;
+.vendor {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-  padding: 2rem 0; }
-  .vendors__box {
+  padding: 2rem; }
+  .vendor__logos {
     display: flex;
-    flex-direction: column; }
-    .vendors__box__title {
-      text-align: center; }
-    .vendors__box__display {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      flex-wrap: wrap; }
-      .vendors__box__display__link {
-        margin-top: 1rem; }
-      .vendors__box__display-btn:link, .vendors__box__display-btn:visited {
-        background-color: #091c4d;
-        font-size: 1.3rem;
-        text-align: center;
-        color: #fff;
-        padding: 0.25rem 1rem;
-        text-decoration: none;
-        text-transform: uppercase;
-        align-self: center;
-        margin: 2rem;
-        border-radius: 3rem;
-        border: 1px solid #5a5a5a; }
-      .vendors__box__display-items {
-        width: 22rem;
-        height: 18rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; }
-        @media only screen and (max-width: 56.25em) {
-          .vendors__box__display-items {
-            margin: 1rem; } }
-        .vendors__box__display-items-1 {
-          background-image: linear-gradient(to right bottom, rgba(9, 28, 77, 0.7), rgba(250, 48, 75, 0.7)), url(/img/proj-1.jpg);
-          background-position: center;
-          background-size: cover; }
-        .vendors__box__display-items-2 {
-          background-image: linear-gradient(to right bottom, rgba(9, 28, 77, 0.7), rgba(250, 48, 75, 0.7)), url(/img/proj-2.jpg);
-          background-position: center;
-          background-size: cover; }
-        .vendors__box__display-items-3 {
-          background-image: linear-gradient(to right bottom, rgba(9, 28, 77, 0.7), rgba(250, 48, 75, 0.7)), url(/img/proj-3.jpg);
-          background-position: center;
-          background-size: cover; }
-        .vendors__box__display-items-4 {
-          background-image: linear-gradient(to right bottom, rgba(9, 28, 77, 0.7), rgba(250, 48, 75, 0.7)), url(/img/proj-1.jpg);
-          background-position: center;
-          background-size: cover; }
-      .vendors__box__display-items h3 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 80%;
-        color: white;
-        font-size: 2rem;
-        font-weight: 500; }
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center; }
+  .vendor__logo {
+    width: 12rem;
+    margin: 1rem;
+    transition: transform .3s; }
+    .vendor__logo:hover {
+      transform: scale(1.2); }
+    .vendor__logo-image {
+      width: 12em; }
