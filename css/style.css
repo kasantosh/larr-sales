@@ -230,6 +230,8 @@ html {
     height: 10rem;
     font-size: 1.5rem;
     padding: 0 2rem; }
+  .header__contact {
+    text-align: right; }
 
 .main-section {
   width: 97%;
@@ -361,11 +363,12 @@ html {
     flex-wrap: wrap; }
     .periodicals__cards-item {
       width: 22rem;
-      height: 30rem;
+      height: 32rem;
       margin: 0 1rem;
-      padding: 2rem;
       background: #fff;
       border-radius: 1rem;
+      border: 1px solid #999;
+      overflow: hidden;
       box-shadow: 0 1rem 2rem rgba(51, 51, 51, 0.2); }
       @media only screen and (max-width: 56.25em) {
         .periodicals__cards-item {
@@ -377,6 +380,9 @@ html {
         text-align: center;
         font-size: 1.8rem;
         font-weight: 500;
+        color: #fa304b; }
+      .periodicals__cards-item__link:link, .periodicals__cards-item__link:active, .periodicals__cards-item__link:visited {
+        text-decoration: none;
         color: #fa304b; }
 
 .section-heading {
