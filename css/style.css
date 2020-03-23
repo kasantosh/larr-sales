@@ -181,6 +181,8 @@ html {
     .footer__box__map {
       padding-right: 2rem;
       border-right: solid 1px #5e5d5d; }
+    .footer__box__logo {
+      width: 25rem; }
     .footer__box__address {
       margin-left: 2rem;
       display: flex;
