@@ -175,8 +175,21 @@ html {
   color: #fff;
   padding: 2rem 0;
   font-size: 1.5rem;
-  background-color: #333;
-  border-bottom: #f9e3c7 2px solid; }
+  background-color: #333; }
+  .footer__box {
+    display: flex; }
+    .footer__box__map {
+      padding-right: 2rem;
+      border-right: solid 1px #5e5d5d; }
+    .footer__box__address {
+      margin-left: 2rem;
+      display: flex;
+      align-items: center; }
+
+.legal {
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 1.4rem; }
 
 .row {
   max-width: 114rem;
